@@ -1,0 +1,51 @@
+
+
+.container {
+  display: flex;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+.card_body {
+  margin-bottom: 10px;
+}
+
+.card_title {
+  font-size: 18px;
+  font-weight: bold;
+ }
+
+.card_text {
+  font-size: 14px;
+}
+
+.card_footer {
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card_price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ff0000;
+  background-color: rgba(rgb(241, 178, 178), rgb(190, 219, 190), rgb(207, 207, 232), alpha)
+}
+
+.card-speed{
+  font-size: 16px;
+  background-color: #f1f1f1;
+}
+
+.highlighted{
+  background-color: #f8e0e0;
+  border-color: #ff0000;
+}
