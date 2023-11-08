@@ -1,5 +1,3 @@
-
-
 .container {
   display: flex;
   width: auto;
@@ -37,7 +35,7 @@
   font-size: 16px;
   font-weight: bold;
   color: #ff0000;
-  background-color: rgba(rgb(241, 178, 178), rgb(190, 219, 190), rgb(207, 207, 232), alpha)
+  background-color:  #f1f1f1;
 }
 
 .card-speed{
@@ -45,7 +43,8 @@
   background-color: #f1f1f1;
 }
 
-.highlighted{
-  background-color: #f8e0e0;
-  border-color: #ff0000;
+.card.selected {
+  border: 2px solid red; 
+  background-color: rgb(247, 227, 227); 
+  color: black;
 }
